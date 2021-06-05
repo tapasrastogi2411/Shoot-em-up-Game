@@ -19,3 +19,9 @@
 Once this is set up, open the MMIO Keyboard Simulator alongw with bitmap display, click 'Connect to MIPS', and compile and run the 'game.asm' file to play the game!
 
 Input the character a or d or w or s in Keyboard area (bottom white box) in Keyboard and Display MMIO Simulator window, to move your ship! 
+
+### Features supported by this game
+
+- Obstacles and ship keep moving from left to right continuously. Obstacles, on reaching the right end of the screen are redrawn randomly using a random number generator. 
+- Player can move the ship around the screen using the movement keys. The ship cannot move past the edges of the screen as expected
+- There is collision detection that takes place when an obstacle touches the ship
